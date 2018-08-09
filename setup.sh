@@ -3,8 +3,8 @@ HOMEPATH=$HOME
 CURRPATH=$(pwd)
 
 backup() {
-  mv $HOMEPATH/vim $HOMEPATH/.vim.backup
-  mv $HOMEPATH/vimrc $HOMEPATH/.vimrc
+  mv $HOMEPATH/.vim $HOMEPATH/.vim.backup
+  mv $HOMEPATH/.vimrc $HOMEPATH/.vimrc
 }
 
 setup() {
